@@ -1,9 +1,23 @@
 import React from 'react';
-
+import timeline from '../data/Timeline';
+import TimelineItem from './TimelineItem';
+import Title from './Title';
 
 function Timeline() {
     return (
-        <div>   </div>
+        <div className='flex flex-col md:flex-row justify-center px-10 my-5'>
+            <div className='w-full md:w-10/12'>
+                <Title>Timeline</Title>
+                {timeline.map(item => (
+                <TimelineItem 
+                    year = {item.year}
+                    title = {item.title}
+                    duration = {item.duration}
+                    details = {item.details}
+                />
+            ))}
+            </div>
+        </div>
     )
 }
 

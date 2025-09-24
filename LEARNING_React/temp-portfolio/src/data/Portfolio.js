@@ -2,7 +2,7 @@ export default [
     { 
         title: 'Custom WordCloud Generator',
         imgUrl: 'https://github.com/PUSH-YA/Bday_2024--customWordCloudSite/raw/main/readme_img/idea.png',
-        stack: ['Pinecone', 'Django', 'BeautifulSoup', 'Amazon EC2', 'Sentence-Transformer', 'matplotlib'],
+        stack: ['Pinecone', 'Django', 'Amazon EC2', 'Sentence-Transformer'],
         link: 'https://github.com/PUSH-YA/Bday_2024--customWordCloudSite'
     }, 
     {
