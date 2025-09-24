@@ -8,7 +8,7 @@ function Portfolio() {
         <div className='flex flex-col md:flex-row justify-center pl-10 md:pl-0 my-5'>
             <div className='w-full md:w-10/12 md:pl-5'>
                 <Title>Projects</Title>
-                <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-4 mt-5">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 mt-5">
                 {portfolio.map(project => 
                     <PortfolioItem 
                         imgUrl={project.imgUrl}
